@@ -6,4 +6,9 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    largest=list_num[0]
+    if largest<list_num[-1]:
+        largest=list_num[-1]
+    return largest
+print(main([5, 32, 1, 4, 3]))
+print(main([12, 2, 5, 2, 7, 9, 1]))
