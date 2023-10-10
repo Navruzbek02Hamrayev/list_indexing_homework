@@ -9,3 +9,4 @@ def main(list1,list2):
     """
     return list1+list2
 print(main([1, 2, 3, 4, 5],[6, 7, 8, 9, 10]))
+print(main(["x", 1],["y", 2, "z", 3]))
