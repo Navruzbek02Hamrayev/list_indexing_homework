@@ -6,4 +6,12 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i=0
+    while i < len(list1)-1:
+        if list1[i] != list1[i+1]:
+            return False
+        i += 1
+    else:
+        return True
+print(main([0, 0, 0, 0, 0]))
+print(main(['x', 'x', 'y', 'y', 'z']))
